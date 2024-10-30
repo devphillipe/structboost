@@ -48,7 +48,42 @@
 }
 .card-post{
     border: 2px solid rgba(255, 255, 255, 0.08);
-    background: rgba(255, 255, 255, 0.02);
+    background-color: rgba(255, 255, 255, 0.02);
     padding: 2.4rem;
 }
 
+.card-post .tag {
+    display: inline-block;
+    border-radius: 10rem;
+    padding: 0.8rem 2.2rem;
+    background-color: rgba(255, 255, 255, 0.10);
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.126rem;
+    text-transform: uppercase;
+    margin-bottom: 4.5rem;
+}
+.card-post .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+
+.card-post .text {
+    width: 100%;
+    max-width: 50.8rem;
+}
+
+.card-post .text h6 {
+    margin-bottom: 0.8rem;
+
+}
+
+.card-post .text p {
+    font-size: 1.6rem;
+    color: var(--gray-600);
+}
