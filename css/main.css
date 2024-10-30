@@ -54,7 +54,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--color-gray-800);
     font-family: 'Sora', sans-serif;
     line-height: 120%;
 }
@@ -104,8 +103,14 @@ h6 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 150%;
 }
 
+.container {
+    width: 100%;
+    max-width: 124.6rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
 
