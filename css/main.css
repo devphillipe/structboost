@@ -1,0 +1,14 @@
+.topo {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 11.2rem;
+}
+.logo-white {
+    width: 100%;
+    max-width: 20.8rem;
+    gap: 54.2rem;
+}
+
+
