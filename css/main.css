@@ -35,3 +35,39 @@ header ul li a:hover {
     opacity: 0.7;
     color: var(--pink-10);
 }
+
+.main {
+    height: 109.2rem;
+    padding: 0 1.5rem;
+}
+
+.card  {
+    width: 144rem;
+    height: 106.2rem;
+    padding: 11.3rem 36.5rem 64.1rem 35.6rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+}
+
+section div h1 {
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+section div p {
+    color: var(---gray-300);
+    text-align: center;
+    letter-spacing: -0.54px;
+    width: 55.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.seta {
+    position: absolute;
+    left: 415px;
+    top: 395px;
+}
