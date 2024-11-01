@@ -36,7 +36,7 @@ header ul li a:hover {
     opacity: 0.7;
     color: var(--pink-10);
 }
-/* SESSÃO HERO */
+/* SEÇÃO HERO */
 .s-hero {
     /*position: relative -> para poder usar posicionamentos absolutos */
     position: relative;
@@ -151,3 +151,33 @@ header ul li a:hover {
 .s-hero .ilustra {
     padding: 0 1.5rem;
 }
+
+/* SEÇÃO DIGITAL */
+.s-digital {
+    width: 100%;
+    padding: 12.8rem 11.2rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.s-digital .container {
+    width: 121.6rem;
+}
+
+.s-digital .container h3 {
+    width: 53.5rem;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    letter-spacing: -1.2px;
+    margin: 0 auto;
+    margin-bottom: 6.4rem;
+}
+
+.s-digital .container .cards{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 3.2rem;
+}
+
