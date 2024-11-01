@@ -33,7 +33,7 @@ header ul li a{
 
 header ul li a:hover {
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.9;
     color: var(--pink-10);
 }
 /* SEÇÃO HERO */
@@ -154,13 +154,7 @@ header ul li a:hover {
 
 /* SEÇÃO DIGITAL */
 .s-digital {
-    width: 100%;
-    padding: 12.8rem 11.2rem;
-
-}
-
-.s-digital .container {
-    width: 121.6rem;
+   padding-top: 12.8rem;
 }
 
 .s-digital .container h3 {
@@ -172,13 +166,15 @@ header ul li a:hover {
     margin-bottom: 6.4rem;
 }
 
-.s-digital .container .cards{
+.s-digital .container ul {
     display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    gap: 3.2rem;
+    justify-content: space-between;
     padding-bottom: 12.8rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 
 }
+/* SEÇÃO Domine a arte */
+.s-arte {
+    padding-top: 12.8rem;
 
+}
