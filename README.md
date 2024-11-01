@@ -26,6 +26,6 @@ Para visualizar o site em seu navegador, basta abrir o arquivo `index.html` no s
 
 ## Link do Projeto Finalizado
 
-[Projeto Finalizado](href="https://structboost-nine.vercel.app/" target="_blank)
+[Projeto Finalizado](https://structboost-nine.vercel.app/)
 
 > **Dica:** Para abrir o link em uma nova guia, clique com o botão direito e selecione "Abrir link em uma nova guia" ou pressione `Ctrl` (ou `Cmd` no Mac) ao clicar.
