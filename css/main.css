@@ -176,5 +176,43 @@ header ul li a:hover {
 /* SEÇÃO Domine a arte */
 .s-arte {
     padding-top: 12.8rem;
+    width: 100% ;
+    border: 1px solid red;
+}
 
+.s-arte .container {
+    border: 2px solid blue;
+    
+}
+
+.s-arte .container .conteudo-text {
+    border: 2px solid green;
+    width: 121.6rem;
+    display: flex;
+    padding-bottom: 6.4rem;
+    justify-content: space-between;
+}
+
+.s-arte .container .conteudo-text .text-left {
+    border: 1px solid yellow;
+    width: 53.9rem;
+}
+
+.s-arte .container .conteudo-text .text-left h3 {
+    padding-bottom: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+}
+
+.s-arte .container .conteudo-text .text-left p {
+    border: 1px solid purple;
+    width: 45.2rem;
+    color: var(---gray-600);
+    font-size: 1.8rem;
+    letter-spacing: -0.54px;
+}
+
+.s-arte .container .conteudo-text .text-right p {
+    border: 1px solid yellow;
+    width: 42.9rem;
 }
