@@ -177,16 +177,9 @@ header ul li a:hover {
 .s-arte {
     padding-top: 12.8rem;
     width: 100% ;
-    border: 1px solid red;
-}
-
-.s-arte .container {
-    border: 2px solid blue;
-    
 }
 
 .s-arte .container .conteudo-text {
-    border: 2px solid green;
     width: 121.6rem;
     display: flex;
     padding-bottom: 6.4rem;
@@ -194,7 +187,6 @@ header ul li a:hover {
 }
 
 .s-arte .container .conteudo-text .text-left {
-    border: 1px solid yellow;
     width: 53.9rem;
 }
 
@@ -205,7 +197,6 @@ header ul li a:hover {
 }
 
 .s-arte .container .conteudo-text .text-left p {
-    border: 1px solid purple;
     width: 45.2rem;
     color: var(---gray-600);
     font-size: 1.8rem;
@@ -213,6 +204,16 @@ header ul li a:hover {
 }
 
 .s-arte .container .conteudo-text .text-right p {
-    border: 1px solid yellow;
     width: 42.9rem;
 }
+
+.s-arte .container .cards {
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+}
+
+.s-arte .container .cards > div:first-child {
+    grid-column: span 2;
+}
+/*  */
