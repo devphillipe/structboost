@@ -11,7 +11,7 @@ Este projeto tem como objetivo aprender a estruturar um site utilizando HTML e C
 ## Estrutura do Projeto
 
 - `index.html`: O arquivo principal do site, onde a estrutura básica é definida.
-- `components.html`: O arquivo principal do site, onde a estrutura básica é definida.
+- `components.html`: O arquivo onde foi criado alguns componentes que se repetem no site. 
 - `pasta css`: O arquivo de estilo que contém as regras CSS aplicadas ao HTML.
 - `pasta img`: Contem todos os arquivos de imagens e SVG's utilizados.
 
