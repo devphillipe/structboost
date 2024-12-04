@@ -28,7 +28,7 @@ header ul li a{
     color: var(--gray-100);
     font-size: 1.6rem;
     letter-spacing: -0.48px;
-    transform: opacity .3s ease;
+    transform: opacity .5s ease, color .5s ease;
 }
 
 header ul li a:hover {
