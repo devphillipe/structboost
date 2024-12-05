@@ -28,7 +28,7 @@ header ul li a{
     color: var(--gray-100);
     font-size: 1.6rem;
     letter-spacing: -0.48px;
-    transform: opacity .5s ease, color .5s ease;
+    transform: opacity .5s ease;
 }
 
 header ul li a:hover {
@@ -229,14 +229,14 @@ header ul li a:hover {
     text-align: center;
 }
 
-.container h2 {
+.s-newslettler .container h2 {
     max-width: 64.6rem;
     margin: 0 auto;
     text-align: center;
     letter-spacing: -1.44px;
 }
 
-.container p {
+.s-newslettler .container p {
     color: var(--color-gray-100);
 
     max-width: 68.7rem;
@@ -245,7 +245,7 @@ header ul li a:hover {
     letter-spacing: -0.66px;
 
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto  ;
     padding-top: 1.6rem;
     padding-bottom: 2.4rem;
 }
@@ -260,10 +260,17 @@ footer .main-area {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
 }
 
 footer .main-area .left {
     max-width: 27.9rem;
+    margin-bottom: 6.4rem;
+}
+footer .main-area .left p {
+    padding-top: 2.4rem;
+    font-size: 16px;
+    letter-spacing: -0.48px;
 }
 
 footer .main-area .right {
@@ -271,4 +278,45 @@ footer .main-area .right {
     max-width: 72.9rem;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+footer .main-area .right h6 {
+    color: var(--gray-100, #F5F6FA);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+}
+footer .main-area .right a {
+    color: var(--gray-600);
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    transition: color .5s ease;
+}
+
+footer .main-area .right a:hover {
+    color: var(--gray-100);
+}
+
+footer .main-area .right ul {
+    padding-top: 32px;
+}
+
+footer .main-area .right ul li {
+    display: flex;
+    gap: 8px;
+}
+
+footer .main-area .right ul li:not(:last-child){
+    margin-bottom: 32px;
+}
+
+footer .copy {
+    padding-top: 24px;
+    font-size: 16px;
+}
+
+footer .copy strong {
+    font-weight: 600;
 }

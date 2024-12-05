@@ -54,12 +54,13 @@ h6 {
 }
 
 p {
+    color: var(--gray-600);
     font-size: 1.8rem;
     line-height: 150%;
-    color: var(--gray-600)
 }
 
-h4 + p {
+.container h4 + p {
+    color: var(--gray-600);
     font-size: 1.6rem;
     line-height: 150%; /* 24px */
     letter-spacing: -0.48px;
