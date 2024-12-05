@@ -177,6 +177,7 @@ header ul li a:hover {
 .s-arte {
     padding-top: 12.8rem;
     width: 100% ;
+    padding-bottom: 8rem;
 }
 
 .s-arte .container .conteudo-text {
@@ -198,13 +199,14 @@ header ul li a:hover {
 
 .s-arte .container .conteudo-text .text-left p {
     width: 45.2rem;
-    color: var(---gray-600);
     font-size: 1.8rem;
     letter-spacing: -0.54px;
 }
 
 .s-arte .container .conteudo-text .text-right p {
     width: 42.9rem;
+    font-size: 1.8rem;
+    letter-spacing: -0.54px;
 }
 
 .s-arte .container .cards {
@@ -216,4 +218,57 @@ header ul li a:hover {
 .s-arte .container .cards > div:first-child {
     grid-column: span 2;
 }
-/*  */
+    /* Newsletter */
+
+.s-newslettler {
+    background-color: var(--pink-10);
+    padding: 5.5625rem 5.5625rem;
+}
+
+.s-newslettler .container {
+    text-align: center;
+}
+
+.container h2 {
+    max-width: 64.6rem;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: -1.44px;
+}
+
+.container p {
+    color: var(--color-gray-100);
+
+    max-width: 68.7rem;
+    font-size: 2.2rem;
+    line-height: 150%; /* 33px */
+    letter-spacing: -0.66px;
+
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1.6rem;
+    padding-bottom: 2.4rem;
+}
+
+    /* Footer */
+
+footer {
+    padding: 4.8rem 0;
+}
+
+footer .main-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer .main-area .left {
+    max-width: 27.9rem;
+}
+
+footer .main-area .right {
+    flex-grow: 1;
+    max-width: 72.9rem;
+    display: flex;
+    justify-content: space-between;
+}

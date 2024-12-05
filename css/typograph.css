@@ -56,4 +56,11 @@ h6 {
 p {
     font-size: 1.8rem;
     line-height: 150%;
+    color: var(--gray-600)
+}
+
+h4 + p {
+    font-size: 1.6rem;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.48px;
 }
